@@ -1,6 +1,7 @@
 #ABOUT SOLANA:
-Solana is a blockchain platform that aims to provide scalability, speed, and low costs. It uses a novel consensus mechanism called Proof of History (PoH) to achieve high throughput and low latency.
-In the context of Web 3, Solana aims to provide the infrastructure for decentralized applications that are fast, low cost, and capable of handling thousands of transactions per second. 
+Solana is a blockchain platform that aims to provide scalability, speed, and low costs. It utilizes a unique consensus mechanism known as Proof of History (PoH) to achieve high throughput and low latency.
+
+In the realm of Web 3, Solana strives to offer the foundational framework for decentralized applications that are swift, cost-effective, and capable of processing thousands of transactions per second.
 ===================================  
 
 1. # PURPOSE OF SOLANA CONTRACT :
@@ -39,7 +40,7 @@ The contract can restrict certain functions only to authorized accounts, such as
 
 In summary, a Solana NFT smart contract provides the core functionality for users to issue, own, trade and potentially earn from NFT tokens on the Solana blockchain. The contract defines the standards and rules that all NFT tokens of that collection must abide by.
 
-3. # Testing
+*3. # Testing*
 The contract should be tested for many reasons like:
 
  * valid minting with correct metadata
@@ -55,17 +56,25 @@ The contract should be tested for many reasons like:
 4).Initialize the contract (if you needed)
 5).Interact with the deployed contract.
 ====================
-#for your example 
-[note: here we are using smart code editor name is codigo.ai.we creating the smart contracts on it and it relatively easily for create , build and deploy the smart contracts. codigo.ai link is  providing on botttom of the this file if wanna check  it then check it out ,  must prefer..]
- First of all you  have to create YAML file ,(eg. @nft.yaml) then secondly you have  generating smart contract using the command and third next  you have to done implementation of funtions like mint,transfer and burn.etc. fourthly you have to build cnttract using following command # cargo build-sbf  in the program directory which contains file like  Cargo.toml or may be different file .now fiftly  Set your config file , for that type the command 
+
+To create a smart contract using codigo.ai, follow these steps:
+
+1. Create a YAML file (e.g., [@nft.yaml]) to define the contract.
+2. Generate the smart contract using the appropriate command.
+3. Implement the necessary functions, such as mint, transfer, and burn.
+4. Build the contract by running the command `cargo build-sbf` in the program directory, which contains files like Cargo.toml.
+5. Set your config file by executing the command solana config set --url devnet.
+
 ---------------------------------
  solana config set --url devnet
 ---------------------------------
+For creating smart contracts easily and efficiently, we recommend using codigo.ai . Check out the for more information in bottom of this file
+
 This command will set our config file to connect to devnet, where we will deploy contract. now we close to deploy ,now we Get devnet tokens for deploying a contract will require some tokens, you get devnet tokens using the command 
 ---------------------------------
 solana airdrop 1 
 ---------------------------------
- *after that you can check your balance with command
+ *after that you can check your balance with command*
 ---------------------------------
 solana balance 
 ---------------------------------
