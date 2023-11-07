@@ -129,4 +129,5 @@
 
 * importants links:
 codigo.ai: https://codigo.ai/
-Rise in :https://www.risein.com/bootcamps (learn new things here)
+
+`Rise in` :https://www.risein.com/bootcamps (learn new things here)
