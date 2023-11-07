@@ -1,8 +1,7 @@
-#ABOUT SOLANA:
+##ABOUT SOLANA:
 Solana is a blockchain platform that aims to provide scalability, speed, and low costs. It utilizes a unique consensus mechanism known as Proof of History (PoH) to achieve high throughput and low latency.
-
 In the realm of Web 3, Solana strives to offer the foundational framework for decentralized applications that are swift, cost-effective, and capable of processing thousands of transactions per second.
-===================================  
+
 
 1. # PURPOSE OF SOLANA CONTRACT :
   This Solana NFT contract allows minting, burning and transferring NFT tokens on the Solana blockchain. The contract follows the SPL Token standard for NFTs.
@@ -62,7 +61,8 @@ Before deploying the contract, we need to build a new smart contract. There are 
 To create or build a smart contract using code editor name *codigo.ai*, follow these steps:
 
 1. Create a YAML file (e.g. [@nft.yaml]) to define the contract.
-     *YAML is a data serialization language that is human-readable and used to define data structures. It is not a true markup language, as its acronym was changed to "YAML 
+
+    *YAML is a data serialization language that is human-readable and used to define data structures. It is not a true markup language, as its acronym was changed to "YAML 
         Ain't Markup Language. It is often used for creating configuration files for applications that use other programming languages.*
    
 3. Generate the smart contract using the appropriate command.
@@ -70,7 +70,7 @@ To create or build a smart contract using code editor name *codigo.ai*, follow t
 5. Build the contract by running the command `cargo build-sbf` in the program directory, which contains files like Cargo.toml.
 6. Set your config file by executing the command -> "solana config set --url devnet".
 
- *solana config set --url devnet*
+ 'solana config set --url devnet'
 ---------------------------------
 For creating smart contracts easily and efficiently, we recommend using codigo.ai . 
 
