@@ -49,22 +49,26 @@ The contract should be tested for many reasons like:
  * Transferring NFTs between wallets
  * Burning NFTs owned by the wallet.
 
-4. # How to deploy the contract.
- There are a few main steps to deploying a Solana smart contract:
-1).Write the contract in Rust
-2). Build and compile the contract
-3).Deploy the contract binary to the Solana network
-4).Initialize the contract (if you needed)
-5).Interact with the deployed contract.
-====================
+4. # How to Deploy the Contract:
 
-To create a smart contract using codigo.ai, follow these steps:
+Before deploying the contract, we need to build a new smart contract. There are several main steps to building and deploying a Solana smart contract:
+
+1. Write the contract in Rust.
+2. Build and compile the contract.
+3. Deploy the contract binary to the Solana network.
+4. Initialize the contract (if necessary).
+5. Interact with the deployed contract.
+
+To create or build a smart contract using code editor name *codigo.ai*, follow these steps:
 
 1. Create a YAML file (e.g. [@nft.yaml]) to define the contract.
-2. Generate the smart contract using the appropriate command.
-3. Implement the necessary functions, such as mint, transfer, and burn.
-4. Build the contract by running the command `cargo build-sbf` in the program directory, which contains files like Cargo.toml.
-5. Set your config file by executing the command solana config set --url devnet.
+     *YAML is a data serialization language that is human-readable and used to define data structures. It is not a true markup language, as its acronym was changed to "YAML 
+        Ain't Markup Language. It is often used for creating configuration files for applications that use other programming languages.*
+   
+3. Generate the smart contract using the appropriate command.
+4. Implement the necessary functions, such as mint, transfer, and burn.
+5. Build the contract by running the command `cargo build-sbf` in the program directory, which contains files like Cargo.toml.
+6. Set your config file by executing the command -> "solana config set --url devnet".
 
  *solana config set --url devnet*
 ---------------------------------
