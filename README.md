@@ -40,7 +40,8 @@ The contract can restrict certain functions only to authorized accounts, such as
 
 In summary, a Solana NFT smart contract provides the core functionality for users to issue, own, trade and potentially earn from NFT tokens on the Solana blockchain. The contract defines the standards and rules that all NFT tokens of that collection must abide by.
 
-*3. # Testing*
+3. # Testing
+ 
 The contract should be tested for many reasons like:
 
  * valid minting with correct metadata
@@ -59,20 +60,19 @@ The contract should be tested for many reasons like:
 
 To create a smart contract using codigo.ai, follow these steps:
 
-1. Create a YAML file (e.g., [@nft.yaml]) to define the contract.
+1. Create a YAML file (e.g. [@nft.yaml]) to define the contract.
 2. Generate the smart contract using the appropriate command.
 3. Implement the necessary functions, such as mint, transfer, and burn.
 4. Build the contract by running the command `cargo build-sbf` in the program directory, which contains files like Cargo.toml.
 5. Set your config file by executing the command solana config set --url devnet.
 
+ *solana config set --url devnet*
 ---------------------------------
- solana config set --url devnet
----------------------------------
-For creating smart contracts easily and efficiently, we recommend using codigo.ai . Check out the for more information in bottom of this file
+For creating smart contracts easily and efficiently, we recommend using codigo.ai . 
 
 This command will set our config file to connect to devnet, where we will deploy contract. now we close to deploy ,now we Get devnet tokens for deploying a contract will require some tokens, you get devnet tokens using the command 
 ---------------------------------
-solana airdrop 1 
+*solana airdrop 1 *
 ---------------------------------
  *after that you can check your balance with command*
 ---------------------------------
@@ -81,8 +81,9 @@ solana balance
 Finally Deploy the Contract
 Once we have the build, from the generated directory, type the following command for deployment: 
 ============================================
- solana program deploy target/deploy/nft.so 
+ #solana program deploy target/deploy/nft.so# 
 ============================================
+
 After completing the deployment, you will get a program ID which is display on Terminal.
 
 5. # How to interact with contract :
