@@ -1,12 +1,12 @@
 # ABOUT SOLANA:
 ### Solana is a blockchain platform that aims to provide scalability, speed, and low costs. It utilizes a unique consensus mechanism known as Proof of History (PoH) to achieve high throughput and low latency.
-### In the realm of Web 3, Solana strives to offer the foundational framework for decentralized applications that are swift, cost-effective, and capable of processing thousands of transactions per second.
+ In the realm of Web 3, Solana strives to offer the foundational framework for decentralized applications that are swift, cost-effective, and capable of processing thousands of transactions per second.
 
 
-##### 1. PURPOSE OF SOLANA CONTRACT :
+### 1. PURPOSE OF SOLANA CONTRACT :
   This Solana NFT contract allows minting, burning and transferring NFT tokens on the Solana blockchain. The contract follows the `SPL Token standard` for NFTs.
 
-##### 2. solana contract having diverse of  functionalities and various purposes.
+### 2. solana contract having diverse of  functionalities and various purposes.
 
    About signficance of  mint ,transfer and burn functions as follows as below:
 -  Mint: Allows an authorized minter to mint new NFT tokens. The minter is specified during contract initialization.
@@ -47,7 +47,7 @@
   In summary, a Solana NFT smart contract provides the core functionality for users to issue, own, trade and potentially earn from NFT tokens on the Solana blockchain. The 
    contract defines the standards and rules that all NFT tokens of that collection must abide by.
 
-##### 3. Testing
+### 3. Testing
  
  * The contract should be tested for many reasons like:
 
@@ -56,7 +56,7 @@
  * Transferring NFTs between wallets
  * Burning NFTs owned by the wallet.
 
- ##### 4.  How to Deploy the Contract:
+ ### 4.  How to Deploy the Contract:
 
  * Before deploying the contract, we need to build a new smart contract. There are several main steps to building and deploying a Solana smart contract:
 
@@ -109,7 +109,7 @@
 
   - After completing the deployment, you will get a program ID which is display on Terminal.
 
-##### 5. How to interact with contract :
+### 5. How to interact with contract :
    To interact with a Solana smart contract, you'll need:
 
 * The `Progarm ID` of the deployed contract
